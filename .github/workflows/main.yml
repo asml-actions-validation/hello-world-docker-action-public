@@ -7,9 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ruudgoossens/hello-world-docker-action-public@v1
-        with:
-          who-to-greet: 'PUBLIC action'
+        uses: ruudgoossens/hello-world-docker-action-public@v2
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
