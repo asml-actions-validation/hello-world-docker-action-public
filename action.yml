@@ -1,5 +1,6 @@
 # action.yml
 name: '[DEMO] Hello World Public'
+author: "Ruud Goossens"
 description: 'Greet someone and record the time'
 inputs:
   who-to-greet:  # id of input
